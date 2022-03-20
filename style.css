@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(230.65deg, #001524 27.49%, black 83.19%);
+  font-family: cursive;
+}
+
+.container {
+  background: linear-gradient(230.65deg, #1d3557 27.49%, #184e77 83.19%);
+  color: #000814;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  padding: 40px;
+}
+
+.perfil {
+  display: flex;
+  align-content: center;
+}
+
+.perfil-foto {
+  border-radius: 50px;
+  box-shadow: 1px 1px 6px #00f5d4;
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 900;
+  font-size: 37px;
+  color: #80ffdb;
+}
+
+.titulo h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #80ffdb;
+}
+  
+.projetos {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #1d3557 27.49%, #184e77 83.19%);
+  margin-top: 32px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  width: 400px;
+  padding: 20px;
+  color: #80ffdb;v
+}
+
+.projetos-itens {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.projetos-itens a {
+  color: #80ffdb;
+  text-decoration: none;
+}
+
+.informacoes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #1d3557 27.49%, #184e77 83.19%);
+  margin-top: 32px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  width: 800px;
+  padding: 15px;
+  color: #80ffdb;
+  font-size: 30px;
+}
+
+.info-itens {
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+info-itens a {
+  color: #80ffdb;
+  text-decoration: none;
+}
